@@ -1,47 +1,28 @@
-# Very short description of the package
+# Laravel Status Codes
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/amirhf/laravel-status-code.svg?style=flat-square)](https://packagist.org/packages/amirhf/laravel-status-code)
-[![Total Downloads](https://img.shields.io/packagist/dt/amirhf/laravel-status-code.svg?style=flat-square)](https://packagist.org/packages/amirhf/laravel-status-code)
-![GitHub Actions](https://github.com/amirhf/laravel-status-code/actions/workflows/main.yml/badge.svg)
-
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+A simple Enum to return correct status codes for http responses.
 
 ## Installation
 
-You can install the package via composer:
+Using composer:
 
 ```bash
 composer require amirhf/laravel-status-code
 ```
 
-## Usage
+You are then free to use it as needed within your projects.
 
-```php
-// Usage description here
-```
+==========
 
 ### Testing
 
 ```bash
-composer test
+./vendor/bin/phpunit  
 ```
-
-### Changelog
-
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
-
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
-
-### Security
-
-If you discover any security related issues, please email amirhf12x@gmail.com instead of using the issue tracker.
 
 ## Credits
 
 -   [amirhf](https://github.com/amirhf)
--   [All Contributors](../../contributors)
 
 ## License
 
