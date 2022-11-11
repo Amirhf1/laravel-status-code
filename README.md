@@ -12,8 +12,6 @@ composer require amirhf/laravel-status-code
 
 You are then free to use it as needed within your projects.
 
-==========
-
 ### Testing
 
 ```bash
